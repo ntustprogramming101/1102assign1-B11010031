@@ -74,9 +74,7 @@ void draw() {
   x+=20;
   if (x>=640){x=-80;}
    
-    //robot
-    robotImg=loadImage("img/robot.png");
-    image(robotImg,robotX,160+80*q);
+    
     
      //robot laser
     colorMode(RGB);
@@ -91,5 +89,7 @@ void draw() {
     if(laserX-laserA>=20) //40
     {laserX=laserA+20;}
     
-    
+    //robot
+    robotImg=loadImage("img/robot.png");
+    image(robotImg,robotX,160+80*q);
 }
