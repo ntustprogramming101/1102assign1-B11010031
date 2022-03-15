@@ -92,4 +92,5 @@ void draw() {
     //robot
     robotImg=loadImage("img/robot.png");
     image(robotImg,robotX,160+80*q);
+    
 }
